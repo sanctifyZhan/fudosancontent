@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>
+    1985CafeBaoCap
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+			  
+  <script src="https://aframe.io/releases/1.0.2/aframe.min.js"></script>
+<!-- include ar.js -->
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.0.0/aframe/build/aframe-ar.js"></script>
+<!-- to load .ply model -->
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.1/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://unpkg.com/aframe-chromakey-material/dist/aframe-chromakey-material.min.js"></script>
+	
+	<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+   <a-scene embedded arjs='debugUIEnabled:false; trackingMethod: best;'
+        device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" loading-screen="enabled:false" precision: mediump>
+  <a-assets>
+        <video id="vid" src="w1.mp4"
+        preload="auto"
+        respose-type="arraybuffer"
+        loop="true"
+        playsinline
+        crossorigin
+        webkit-playsinline
+        muted
+        autoplay
+        >
+      </video>
+			
+      <img id="my-image" src="logo.jpg">
+
+    </a-assets>
+
+    <a-text
+    value="1985"
+    negate="false"
+    scale="1 1 1"
+    position="-0.3 1 -4"
+    color="red">
+  </a-text>
+
+    <a-text
+    value="TIEM CA PHE BAO CAP"
+    negate="false"
+    scale="1 1 1"
+    position="-1.2 0.7 -5"
+    color="red">
+  </a-text>
+
+  <a-text
+  value="Sale 10% TODAY TO 30/4"
+  negate="false"
+  scale="1 1 1"
+  position="-1.2 0.2 -6"
+  color="yellow">
+</a-text>
+
+  <a-text
+        value="P: 090 986 11 87"
+      negate="false"
+        scale="1 1 1"
+        position="-0.8 -0.9 -9"
+        color="red">
+      </a-text>
+   
+<a-text
+value="A: QL20-2612 Phu Dung-Phu Binh-TP-DN"
+negate="false"
+scale="1 1 1"
+position="-2.1 -1.2 -9"
+color="red">
+</a-text>
+	   
+   <a-image src="#my-image"
+                     position="0 2.6 -7" height="1.5" width="1.5">
+            </a-image>	   
+	   
+	   <a-video src="#vid" position="-0.02 1.3 -3" rotation="-180 0 0" scale="1.6 2.7 1" material="shader: chromakey; color: 0.1 0.9 0.2"></a-video>
+	   
+<a-entity camera position="0 1.2 0"></a-entity>
+
+            </a-scene>		
+</body>
+
+<script>
+  let video = document.getElementById("vid");
+                video.play();            
+
+           //    var v = document.querySelector('#video');
+//  v.play();  <a-video src="#vid" position="0 0 -3" rotation="-150 0 0" scale="2 2 2" material="shader: chromakey; color: 0.1 0.9 0.2"></a-video>
+
+               
+</script>
+</html>
