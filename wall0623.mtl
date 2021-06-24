@@ -1,0 +1,86 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 作成したファイル : 22.06.2021 16:45:37
+
+newmtl WALL_out_baked_CONC
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.721569 0.607843 0.898039
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_outVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_outVRayCompleteMap.jpg
+
+newmtl WALL_B_baked_CONC
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.721569 0.607843 0.898039
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_BVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_BVRayCompleteMap.jpg
+
+newmtl cable_baked_cable
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.109804 0.584314 0.694118
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\cableVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\cableVRayCompleteMap.jpg
+
+newmtl stopper_baked_Material__19
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.105882 0.694118 0.345098
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\stopperVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\stopperVRayCompleteMap.jpg
+
+newmtl pipe_baked_PIPE
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.839216 0.894118 0.600000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\pipeVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\pipeVRayCompleteMap.jpg
+
+newmtl WALL_A_baked_CONC
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.721569 0.607843 0.898039
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_AVRayCompleteMap.jpg
+	map_Kd Z:\smb\_AC_\2021_0622_不動産サンプル\壁内AR\texBake_0622\WALL_AVRayCompleteMap.jpg
