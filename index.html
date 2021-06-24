@@ -24,12 +24,13 @@
         <a-assets>
           <img id="my-imageid" src="my-image.jpg">
         
-          <a-asset-item id="crate-obj" src="wall0622.obj"></a-asset-item>
-     	  <a-asset-item id="crate-mtl" src="wall0623.mtl"></a-asset-item>
+         
          
       </a-assets>
 	   	   
-<a-obj-model position="0 -3 3" src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
+  <a-entity 
+            obj-model="obj: wall0622.obj; mtl: wall0623.mtl">
+        </a-entity>
 	   
       <a-text
       value="TIEM CA PHE BAO CAP"
