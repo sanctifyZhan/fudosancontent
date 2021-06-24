@@ -22,12 +22,15 @@
 
         <a-assets>
           <img id="my-imageid" src="my-image.jpg">
-         <a-asset-item id="3dd2" src="wall0623.mtl"></a-asset-item>
+        
           <a-asset-item id="3dd" src="wall0622.obj"></a-asset-item>
-      
+     	  <a-asset-item id="3dd2" src="wall0623.mtl"></a-asset-item>
          
       </a-assets>
 
+	    <a-entity obj-model="obj: #3dd; mtl: #3dd2"
+  position="-2 0 0"></a-entity>
+	   
       <a-text
       value="TIEM CA PHE BAO CAP"
       negate="false"
@@ -43,8 +46,7 @@
           <a-camera></a-camera>
         </a-entity>
 
- <a-entity obj-model="obj: #3dd; mtl: #3dd2"
-  position="-2 0 0"></a-entity>
+
 
 </a-scene>		
 </body>
