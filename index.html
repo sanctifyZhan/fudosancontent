@@ -19,11 +19,17 @@
  <a-scene embedded arjs='debugUIEnabled:false; trackingMethod: best;'
         device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" loading-screen="enabled:false" precision: mediump>
 
-     <a-entity 
+	 
+	 
+        <a-marker type='pattern' url='pattern-patt.patt' markerhandler>
+
+           <a-entity 
             obj-model="obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
             mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)"
 	    position="0 0 -20">
         </a-entity>
+        </a-marker>
+    
 
 </a-scene>		
 </body>
