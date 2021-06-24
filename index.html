@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>
+   不動産コンテンツ
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+			  
+  <script src="https://aframe.io/releases/1.0.2/aframe.min.js"></script>
+<!-- include ar.js -->
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.0.0/aframe/build/aframe-ar.js"></script>
+<!-- to load .ply model -->
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.1/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://unpkg.com/aframe-chromakey-material/dist/aframe-chromakey-material.min.js"></script>
+	
+	<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+   <a-scene embedded arjs='debugUIEnabled:false; trackingMethod: best;'
+        device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" loading-screen="enabled:false" precision: mediump>
+
+        <a-assets>
+          <img id="my-image" src="my-image.jpg">
+      </a-assets>
+
+     
+
+        <a-marker type='pattern' url='pattern-patt.patt' markerhandler>
+
+          <a-image id="my-image" src="#my-image" position="0 0 2" scale="1 1 1" visible="false" height="0.9"
+          width="1.2">
+      </a-image>
+
+            <!-- <a-video id="aVideoHide" src="#vid" position="-9 9 9" rotation="-90 0 0" height="6px" width="6px"
+                material="shader: chromakey; color: 0.1 0.9 0.2"></a-video> -->
+        </a-marker>
+
+        <a-entity camera position="0 0 1"></a-entity>
+
+      
+            </a-scene>		
+</body>
+
+</html>
