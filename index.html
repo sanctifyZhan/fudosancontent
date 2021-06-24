@@ -19,15 +19,14 @@
  <a-scene embedded arjs='debugUIEnabled:false; trackingMethod: best;'
         device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" loading-screen="enabled:false" precision: mediump>
 
+	  <a-assets>
+        <a-asset-item id="santa-obj" src="wall0622.obj"></a-asset-item>
+        <a-asset-item id="santa-mtl" src="wall0623.mtl"></a-asset-item>
+    </a-assets>
 	 
-	 
-        <a-marker type='pattern' url='pattern-patt.patt' markerhandler>
+        <a-marker type='pattern' url='pattern-patt.patt'>
 
-           <a-entity 
-            obj-model="obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
-            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)"
-	    position="0 0 -20">
-        </a-entity>
+           <a-obj-model id="santa" src="#santa-obj" mtl="#santa-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
         </a-marker>
     
 
