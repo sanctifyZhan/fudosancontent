@@ -25,7 +25,7 @@
 
         <a-assets>
           <img id="my-imageid" src="my-image.jpg">
-         
+         <a-asset-item id="3dd2" src="wall0623.mtl"></a-asset-item>
           <a-asset-item id="3dd" src="wall0622.obj"></a-asset-item>
       
          
@@ -46,7 +46,12 @@
           <a-camera></a-camera>
         </a-entity>
 
-  <a-entity obj-model="obj: #3dd;></a-entity>
+ <a-entity obj-model="obj: #3dd; mtl: #3dd2"
+  position="-10 0 5"
+  scale= "0.5 0.5 0.5"
+  rotation="0 200 0"
+	   color="red"
+  ></a-entity>
 
 	
 	   
