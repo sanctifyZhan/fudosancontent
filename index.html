@@ -18,36 +18,12 @@
 <body style='margin : 0px; overflow: hidden;'>
 
 	
-   <a-scene embedded arjs='debugUIEnabled:false; trackingMethod: best;'
-        device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" loading-screen="enabled:false" precision: mediump>
-
-        <a-assets>
-          <img id="my-imageid" src="my-image.jpg">
-        
-         
-         
-      </a-assets>
-	   	   
-  <a-entity 
-            obj-model="mtl: wall0623.mtl">
+  <a-scene>
+       <a-entity 
+            obj-model="obj: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.obj); 
+            mtl: url(https://rishavjayswal.github.io/augmented-reality/resources/couch.mtl)">
         </a-entity>
-	   
-      <a-text
-      value="TIEM CA PHE BAO CAP"
-      negate="false"
-      scale="1 1 1"
-      position="-1.2 2.7 -5"
-      color="red">
-    </a-text>
-
-      <a-image src="#my-imageid" position="0 0 -4" scale="2 2 2" height="0.9"
-      width="1.2"></a-image>
-	   
-	    <a-entity position="0 0 20">
-          <a-camera></a-camera>
-        </a-entity>
-
-
+    </a-scene>
 
 </a-scene>		
 </body>
